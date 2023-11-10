@@ -6,9 +6,9 @@ throw false
 let pesan = args.join` `
 let oi = `@𝐢𝐭𝐬.𝐛𝐫𝐮𝐧𝐢𝐭𝐨𝐩: ${pesan}`
 
-let teks = `𝐃𝐞𝐬𝐩𝐢𝐞𝐫𝐭𝐞𝐧 𝐏𝐥𝐚𝐧𝐭𝐢𝐭𝐚𝐬 🌿 \n\n❏ ${oi}\n❏ 𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚𝐬: \n`
+let teks = `𝐷𝑒𝑠𝑝𝑖𝑒𝑟𝑡𝑒𝑛, 𝑃𝑟𝑜𝑠𝑝𝑒𝑐𝑡𝑜𝑠 🇵🇪 \n\n❏ ${oi}\n❏ 𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚𝐬: \n`
 for (let mem of participants) {
-teks += `🦀🧿@${mem.id.split('@')[0]}\n`}
+teks += `💪🏻@${mem.id.split('@')[0]}\n`}
 teks += `
 ➥ 𝐁𝐫𝐮𝐧𝐢𝐭𝐨𝐗𝐓𝐚𝐧𝐢𝐚`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
